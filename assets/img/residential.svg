@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" fill="none">
+  <defs>
+    <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="400" height="350" fill="#F0F9FF" rx="12"/>
+  <!-- Sun -->
+  <circle cx="340" cy="60" r="30" fill="#FBBF24" opacity="0.6"/>
+  <!-- Ground -->
+  <rect x="0" y="260" width="400" height="90" fill="#D1FAE5" rx="0"/>
+  <!-- House -->
+  <rect x="120" y="160" width="160" height="100" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Roof -->
+  <polygon points="100,160 200,80 300,160" fill="url(#roofGrad)"/>
+  <!-- Door -->
+  <rect x="180" y="210" width="40" height="50" rx="4" fill="#1E293B"/>
+  <circle cx="212" cy="237" r="3" fill="#D97706"/>
+  <!-- Windows -->
+  <rect x="140" y="190" width="28" height="28" rx="3" fill="#BAE6FD" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="232" y="190" width="28" height="28" rx="3" fill="#BAE6FD" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Solar panels on roof -->
+  <rect x="145" y="100" width="45" height="30" rx="2" fill="#1E3A5F" stroke="#334155" stroke-width="1"/>
+  <rect x="210" y="100" width="45" height="30" rx="2" fill="#1E3A5F" stroke="#334155" stroke-width="1"/>
+  <!-- Panel grid lines -->
+  <line x1="160" y1="100" x2="160" y2="130" stroke="#334155" stroke-width="0.5"/>
+  <line x1="175" y1="100" x2="175" y2="130" stroke="#334155" stroke-width="0.5"/>
+  <line x1="225" y1="100" x2="225" y2="130" stroke="#334155" stroke-width="0.5"/>
+  <line x1="240" y1="100" x2="240" y2="130" stroke="#334155" stroke-width="0.5"/>
+  <line x1="145" y1="115" x2="190" y2="115" stroke="#334155" stroke-width="0.5"/>
+  <line x1="210" y1="115" x2="255" y2="115" stroke="#334155" stroke-width="0.5"/>
+  <!-- Chimney -->
+  <rect x="240" y="85" width="20" height="30" fill="#64748B"/>
+  <!-- Trees -->
+  <circle cx="60" cy="210" r="25" fill="#34D399" opacity="0.7"/>
+  <rect x="57" y="225" width="6" height="35" fill="#78350F"/>
+  <circle cx="350" cy="220" r="20" fill="#34D399" opacity="0.7"/>
+  <rect x="347" y="232" width="6" height="28" fill="#78350F"/>
+</svg>

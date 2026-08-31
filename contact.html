@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact SOLARIS — Get a free solar consultation, ask questions, or request a quote for your home or business.">
+  <title>Contact Us — SOLARIS Solar Energy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header scrolled">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">&#9788;</div>
+        SOLARIS
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="nav-cta active">Get a Quote &rarr;</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Contact Us</span>
+      </div>
+      <h1>Get in Touch</h1>
+      <p>Ready to start your solar journey? Have questions? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form + Info -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-tag">Contact Info</div>
+          <h2>Let's Talk Solar</h2>
+          <p>Whether you're ready to go solar or just exploring your options, our team is here to help. We provide free, no-obligation consultations and custom quotes.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon">&#128205;</div>
+              <div class="contact-item-text">
+                <h4>Office Location</h4>
+                <p>1200 Solar Drive, Suite 400<br>Austin, TX 78701</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">&#128222;</div>
+              <div class="contact-item-text">
+                <h4>Phone</h4>
+                <p>(800) 555-1234<br>Mon-Fri, 8AM - 6PM CST</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">&#128231;</div>
+              <div class="contact-item-text">
+                <h4>Email</h4>
+                <p>hello@solarisenergy.com<br>quotes@solarisenergy.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">&#128337;</div>
+              <div class="contact-item-text">
+                <h4>Response Time</h4>
+                <p>We respond within 24 hours<br>Emergency support available 24/7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-card">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+              </div>
+              <div class="form-group">
+                <label for="property">Property Type</label>
+                <select id="property" name="property">
+                  <option value="">Select one...</option>
+                  <option value="residential">Residential Home</option>
+                  <option value="commercial">Commercial Building</option>
+                  <option value="industrial">Industrial Facility</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your energy needs, roof size, or any questions you have..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Cards -->
+  <section class="contact-map-section">
+    <div class="container">
+      <div class="contact-grid-detail">
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">&#128222;</div>
+          <h4>Call Us</h4>
+          <p>Speak with a solar consultant today. We'll answer your questions and provide a preliminary estimate over the phone.</p>
+          <a href="tel:+18005551234" class="btn btn-outline" style="margin-top:20px;">(800) 555-1234</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">&#128231;</div>
+          <h4>Email Us</h4>
+          <p>Prefer to write? Send us an email with details about your project and we'll get back to you within 24 hours.</p>
+          <a href="mailto:hello@solarisenergy.com" class="btn btn-outline" style="margin-top:20px;">hello@solarisenergy.com</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">&#128197;</div>
+          <h4>Visit Us</h4>
+          <p>Come see us in person. Our showroom has working solar displays and our team can walk you through everything.</p>
+          <a href="#" class="btn btn-outline" style="margin-top:20px;">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Your Solar Future Starts Here</h2>
+        <p>Take the first step toward energy independence. Our solar experts are ready to design the perfect solution for your home or business.</p>
+        <div class="cta-buttons">
+          <a href="tel:+18005551234" class="btn btn-primary">Call (800) 555-1234 &rarr;</a>
+          <a href="services.html" class="btn btn-secondary">Explore Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">&#9788;</div>
+            SOLARIS
+          </a>
+          <p>Powering Tomorrow with the Sun. Leading the transition to clean, renewable energy for homes and businesses across the nation.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">&#102;</a>
+            <a href="#" aria-label="Twitter">&#120143;</a>
+            <a href="#" aria-label="LinkedIn">&#105;</a>
+            <a href="#" aria-label="Instagram">&#9633;</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Residential Solar</a></li>
+            <li><a href="services.html">Commercial Solar</a></li>
+            <li><a href="services.html">Energy Storage</a></li>
+            <li><a href="services.html">Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Warranty</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SOLARIS Energy. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" fill="none">
+  <defs>
+    <linearGradient id="contactGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="350" fill="url(#contactGrad)" rx="12"/>
+  <!-- Grid pattern -->
+  <g opacity="0.1" stroke="white" stroke-width="0.5">
+    <line x1="0" y1="50" x2="400" y2="50"/>
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="150" x2="400" y2="150"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="250" x2="400" y2="250"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="50" y1="0" x2="50" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="350"/>
+    <line x1="150" y1="0" x2="150" y2="350"/>
+    <line x1="200" y1="0" x2="200" y2="350"/>
+    <line x1="250" y1="0" x2="250" y2="350"/>
+    <line x1="300" y1="0" x2="300" y2="350"/>
+    <line x1="350" y1="0" x2="350" y2="350"/>
+  </g>
+  <!-- Envelope icon -->
+  <rect x="140" y="100" width="120" height="80" rx="6" fill="white" opacity="0.2"/>
+  <rect x="145" y="105" width="110" height="70" rx="4" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <polyline points="145,105 200,155 255,105" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="30" fill="white" opacity="0.05"/>
+  <circle cx="350" cy="300" r="40" fill="white" opacity="0.05"/>
+  <circle cx="350" cy="50" r="20" fill="white" opacity="0.05"/>
+  <!-- Text -->
+  <text x="200" y="230" text-anchor="middle" fill="white" font-size="14" font-family="sans-serif" font-weight="700" letter-spacing="2">GET IN TOUCH</text>
+  <text x="200" y="255" text-anchor="middle" fill="white" font-size="10" font-family="sans-serif" opacity="0.8">We respond within 24 hours</text>
+</svg>
